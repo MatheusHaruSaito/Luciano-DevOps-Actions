@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dizer ola
-        run: echo "Ola, Matheus! Meu segundo Github Action"
+        run: echo "Commit feito por ${{github.actor}}"
       - name: Server Time
         run: date
